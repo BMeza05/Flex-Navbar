@@ -1,0 +1,35 @@
+*{
+    /* outline: 1px solid red; */
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+    font-size: 20px;
+    
+}
+.nav-title{
+    flex: 3;
+}
+.nav-links{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+       flex: 1;
+      list-style-type: none;
+
+}
+a{
+    color: teal;
+    text-decoration: none;
+    
+}
+.btn{
+    background-color: turquoise;
+    border: 2px solid black;
+    color: white;
+}
+
+
